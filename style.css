@@ -6,7 +6,37 @@
 }
 
 body{
-    background-color: rgb(226, 215, 232);
+    background-color: rgb(233, 225, 244);
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top:10px;
+    margin-left:20px;
+}
+
+li{
+    display:inline;
+
+}
+
+a{
+    padding: 20px;
+    background-color: transparent;
+    color: rgb(44, 42, 92);
+    font-family: source-code-pro, monospace;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size:2.5vw;
+    color: white;
+    transition: .3s;
 }
 
 h1{
